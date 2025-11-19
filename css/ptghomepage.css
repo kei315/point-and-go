@@ -1,0 +1,78 @@
+ @font-face{
+   font-family: no_continue;
+    src: url("../fonts/gomarice_no_continue.ttf");
+
+}
+
+body{
+	margin:0px;
+	font-family: no_continue;
+	color:black;
+	font-size:25px;
+	background-color:#39cecb;
+	text-align:center;
+	overflow: hidden;
+}
+
+
+nav{
+	display:flex;
+	height:85px;
+}
+
+#logo{
+	height:85px;
+}
+
+.topbar ul{
+	list-style-type: none;
+	background-color: white;
+	overflow: hidden;
+	padding:0px;
+	margin:0px;
+	width:100vw;
+}
+
+.topbar a{
+	color:black;
+	text-decoration:none;
+	display:block;
+	padding:30px;
+	margin:0px;
+	position: relative;
+	left:-50px;
+} 
+
+.topbar a:hover{
+	background-color:#ffec00;
+}
+
+.topbar li{
+	display:inline-block;
+}
+
+
+#runningguy{
+	margin:auto;
+	display:block;
+	position: relative;
+	top:-24px;
+}
+#startsection{
+	position:relative;
+	top: -255px;
+	left:-255px;
+}
+
+#startbutton{
+	font-family:no_continue;
+	font-size:80px;
+	position: absolute;
+	transform:rotate(32deg);
+}
+
+#startbutton:hover{
+	background-color:#ffec00;
+	display:inline-block;
+}
+
