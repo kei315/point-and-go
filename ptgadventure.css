@@ -8,7 +8,7 @@
 	src: url("../fonts/Alphakind.ttf");
 }
 
-@media screen and (min-width: 992px) and (max-width: 1200px) {
+@media screen and (min-width: 992px) {
   .sidebar {
     width: 30%; 
   }
