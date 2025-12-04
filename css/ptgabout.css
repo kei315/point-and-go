@@ -4,11 +4,11 @@
 }
 body{
 	background-color:white;
-	overflow:hidden;
+	overflow:scroll;
 }
 
 #aboutguy{
-	height:86vh;
+	height:100vh;
 	float:left;
 }
 

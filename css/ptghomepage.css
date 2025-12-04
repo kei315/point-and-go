@@ -3,19 +3,19 @@ body{
 	overflow:scroll;
 }
 
-@media screen and (min-width:769px){
 main{
 	display:inline-flex;
+	flex-grow:1;
 	justify-content:center;
 	align-items: center;
 	width:550px;
 	padding:10px;
-	margin:5%;
-}
+	margin-top:7%;
 }
 
+
 #runningguy{
-	margin:auto;
+	margin:5%;
 	display:block;
 	position: relative;
 	top:-24px;
@@ -25,13 +25,14 @@ main{
 	position:relative;
 	top: 20px;
 	left:-550px;
+	margin:0px;
 }
 
 #startbutton{
 	font-family:no_continue;
 	font-size:80px;
 	position: absolute;
-	transform:rotate(33deg);
+	transform:rotate(34deg);
 }
 
 #startbutton:hover{
