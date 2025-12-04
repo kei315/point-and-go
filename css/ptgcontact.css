@@ -13,6 +13,12 @@ body{
 	overflow:scroll;
 }
 
+main{
+	position:relative;
+	right:80px;
+	display:inline-block;
+	width:600px;
+}
 
 #contactguy{
 	height:100vh;
@@ -26,6 +32,7 @@ body{
 	font-size:30px;
 	font-family: alphakind;
 	margin:7%;
+	right:80px;
 }
 
 #sendbutton{
@@ -63,4 +70,5 @@ textarea{
 	border-width:3px;
 	border-color:black;
 	padding:10px;
+	margin:3%;
 }
