@@ -1,0 +1,19 @@
+@font-face{
+	font-family: no_continue;
+	src: url("../fonts/gomarice_no_continue.ttf");
+}
+
+@font-face{
+	font-family: alphakind;
+	src: url("../fonts/Alphakind.ttf");
+}
+
+body{
+	background-color:white;
+}
+
+
+#forumguy{
+	height:86vh;
+	float:left;
+}
