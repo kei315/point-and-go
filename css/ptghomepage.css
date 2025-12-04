@@ -1,6 +1,17 @@
 body{
 	background-color:#39cecb;
-	overflow:hidden;
+	overflow:scroll;
+}
+
+main{
+	display:inline-flex;
+	justify-content:center;
+	align-items: center;
+	min-height:vh;
+	width:550px;
+	padding:10px;
+	margin:3%;
+
 }
 
 #runningguy{
@@ -9,17 +20,18 @@ body{
 	position: relative;
 	top:-24px;
 }
+
 #startsection{
 	position:relative;
-	top: -255px;
-	left:-255px;
+	top: 20px;
+	left:-550px;
 }
 
 #startbutton{
 	font-family:no_continue;
 	font-size:80px;
 	position: absolute;
-	transform:rotate(32deg);
+	transform:rotate(33deg);
 }
 
 #startbutton:hover{
