@@ -56,3 +56,8 @@ a:hover{
 	font-family: no_continue;
 }
 
+#continue{
+	border:3px solid black;
+	font-family:alphakind;
+	padding:5px;
+}
