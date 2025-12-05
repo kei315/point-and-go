@@ -24,11 +24,11 @@ body{
 	margin:2%;
 	z-index:10%;
 	height:400px;
-	overflow-y:scroll;
+	overflow-y:auto;
 }
 
 .notice{
-	font-family:alphakind;
+	font-family:verdana;
 	margin:0px;
 	color:gray;
 	font-size:15px;
