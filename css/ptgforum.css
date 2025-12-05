@@ -18,3 +18,12 @@ body{
 	height:100vh;
 	float:left;
 }
+
+#forum{
+	display:inline-flex;
+	justify-content:center;
+	flex-direction:column;
+	margin:3%;
+	right:80px;
+	width:870px;
+}
