@@ -11,6 +11,7 @@
 body{
 	background-color:white;
 	overflow:auto;
+	height:100%;
 }
 
 
@@ -21,11 +22,12 @@ body{
 
 #forum{
 	margin:2%;
-	overflow:scroll;
+	height:400px;
+	overflow-y:auto;
 }
 
 .notice{
-	font-family:alphakind;
+	font-family:verdana;
 	margin:0px;
 	color:gray;
 	font-size:15px;
