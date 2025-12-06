@@ -1,0 +1,46 @@
+@font-face{
+	font-family: no_continue;
+	src: url("../fonts/gomarice_no_continue.ttf");
+}
+
+@font-face{
+	font-family: alphakind;
+	src: url("../fonts/Alphakind.ttf");
+}
+
+main{
+	display:inline-flex;
+	flex-direction:column;
+	justify-content:center;
+	padding:0px;
+	margin:3%;
+	font-family:alphakind;
+}
+
+h1{
+	font-family:no_continue;
+}
+
+a{
+	text-decoration:none;
+	color:black;
+}
+
+#back{
+	background-color:#39cecb;
+	border:3px solid black;
+	margin:7%;
+	width:120px;
+	position:relative;
+	left:87px;
+}
+
+#back:hover{
+	background-color:#ffec00;
+}
+
+#thankyouguy{
+	position:relative;
+	left:85px;
+	margin:2%;
+}

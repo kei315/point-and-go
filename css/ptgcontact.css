@@ -39,36 +39,30 @@ main{
 	font-family:alphakind;
 	background-color:#39cecb;
 	font-size:25px;
+	border:3px solid black;
 }
 
 #sendbutton:hover{
 	background-color:#ffec00;
 }
 
-#resetbutton{
-	font-family:alphakind;
-	background-color:#39cecb;
-}
-
-#resetbutton:hover{
-	background-color:#ffec00;
-}
 
 input[type="text"]{
-	border-width:3px;
-	border-color: black;
+	border:3px solid black;
 }
 
 input[type="email"]{
-	border-width:3px;
-	border-color:black;
+	border:3px solid black;
 }
 
 textarea{
 	width:260px;
 	height:90px;
-	border-width:3px;
-	border-color:black;
+	border: 3px solid black;
 	padding:10px;
 	margin:3%;
+}
+
+h1{
+	font-family:alphakind;
 }
